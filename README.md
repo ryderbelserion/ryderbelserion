@@ -4,7 +4,7 @@
 
 [Discord Badge]: https://raw.githubusercontent.com/intergrav/devins-badges/v2/assets/cozy/social/discord-singular_vector.svg
 [Sponsors Badge]: https://raw.githubusercontent.com/intergrav/devins-badges/v2/assets/cozy/donate/ghsponsors-singular_vector.svg
-[Kofi Badge]: https://cdn.jsdelivr.net/gh/intergrav/devins-badges/assets/cozy/donate/kofi-plural_vector.svg
+[Kofi Badge]: https://cdn.jsdelivr.net/gh/intergrav/devins-badges/assets/cozy/donate/kofi-singular-alt_vector.svg
 
 [Discord Badge]: https://cdn.jsdelivr.net/gh/intergrav/devins-badges/assets/cozy/social/discord-singular_vector.svg
 
