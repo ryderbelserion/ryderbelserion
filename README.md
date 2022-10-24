@@ -8,14 +8,17 @@
 
 [Discord Badge]: https://cdn.jsdelivr.net/gh/intergrav/devins-badges/assets/cozy/social/discord-singular_vector.svg
 
+<!-- END Links -->
+
 ## Sneaking around are you? You little bugger...
 
 Have you ever wanted to be a Seeker of many? To wait out the sands of time as everyone you love disappears.... It is a price to pay but a price I am willing to pay seeking all the knowledge I can possibly obtain.
 
 Life is short and low resolution.
 
-<!-- END Links -->
-
+---
+## I just think the badges are neat.
+[![@ryderbelserion's Holopin board](https://holopin.me/ryderbelserion)](https://holopin.io/@ryderbelserion)
 ---
 
 [![Discord Badge]][Discord]
