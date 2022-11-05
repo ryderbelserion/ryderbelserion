@@ -12,7 +12,7 @@
 
 ## Sneaking around are you? You little bugger...
 
-Have you ever wanted to be a Seeker of many? To wait out the sands of time as everyone you love disappears.... It is a price to pay but a price I am willing to pay seeking all the knowledge I can possibly obtain.
+Have you ever wanted to be a Seeker of many? Let every worthy sacrifice be carved in ice to endure for all time. The price to pay for eternal youth.
 
 Life is short and low resolution.
 
