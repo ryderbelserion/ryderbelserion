@@ -27,7 +27,7 @@ Life is short and low resolution.
     
   [<img src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Favicon/favicon__512x512.png" alt="Modrinth Logo" height="75">](https://modrinth.com/)
     
-   [Modrinth](https://modrinth.com/), Modrinth is simply a great platform for mods/plugins.
+   [Modrinth](https://modrinth.com/), Simply a great platform for mods/plugins.
 
   </td>
    
@@ -37,7 +37,7 @@ Life is short and low resolution.
 
   [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/Hangar.png" alt="Bloom Logo" height="75">](https://github.com/HangarMC)
     
-  [HangarMC](https://github.com/HangarMC), HangerMC, A work in progress for Paper Plugins.
+  [HangarMC](https://github.com/HangarMC), A work in progress for Paper Plugins.
 
   </td>
 
@@ -47,7 +47,7 @@ Life is short and low resolution.
 
   [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/Bloom.png" alt="Bloom Logo" height="75">](https://bloom.host/)
     
-  [Bloom](https://bloom.host/), Bloom is simply a great hosting company.
+  [Bloom](https://bloom.host/), Simply a great hosting company.
 
   </td>
 
