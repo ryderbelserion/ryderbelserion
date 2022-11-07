@@ -16,7 +16,7 @@ Have you ever wanted to be a Seeker of many? Let every worthy sacrifice be carve
 
 Life is short and low resolution.
 
-## Plugins:
+## Neat Platforms:
 <table>
   
  <tr>
