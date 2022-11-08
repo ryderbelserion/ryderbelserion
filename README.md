@@ -10,7 +10,7 @@
 
 <!-- END Links -->
 
-## Sneaking around are you? You little bugger...
+## Sneaking around are you? You little bugger... ![](https://komarev.com/ghpvc/?username=ryderbelserion&flat-square)
 
 Have you ever wanted to be a Seeker of many? Let every worthy sacrifice be carved in ice to endure for all time. The price to pay for eternal youth.
 
@@ -62,3 +62,4 @@ Life is short and low resolution.
 
 [![Discord Badge]][Discord]
 [![Kofi Badge]][Kofi]
+![](https://komarev.com/ghpvc/?username=ryderbelserion&style=for-the-badge)
