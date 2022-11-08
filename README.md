@@ -62,4 +62,3 @@ Life is short and low resolution.
 
 [![Discord Badge]][Discord]
 [![Kofi Badge]][Kofi]
-![](https://komarev.com/ghpvc/?username=ryderbelserion&style=for-the-badge)
