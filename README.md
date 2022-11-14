@@ -12,9 +12,11 @@
 
 ## Sneaking around are you? You little bugger... ![](https://komarev.com/ghpvc/?username=ryderbelserion&flat-square)
 
-Have you ever wanted to be a Seeker of many? Let every worthy sacrifice be carved in ice to endure for all time. The price to pay for eternal youth.
+### Have you ever wanted to be a Seeker of many? Let every worthy sacrifice be carved in ice to endure for all time. The price to pay for eternal youth.
 
-Life is short and low resolution.
+I mainly spend my time working with the Minecraft (Java/Kotlin) on development with [CrazyCrew](https://github.com/Crazy-Crew).
+
+I am starting to expand into making websites and working with other libraries like Discord JDA.
 
 ## Neat Platforms:
 <table>
