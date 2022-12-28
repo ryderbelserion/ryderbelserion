@@ -24,7 +24,7 @@ I am starting to expand into making websites and working with other libraries li
 
   ### Modrinth
     
-  [<img src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Favicon/favicon__512x512.png" alt="Modrinth Logo" height="75">](https://modrinth.com/)
+  [<img src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Favicon/favicon__512x512.png" alt="Modrinth" height="75">](https://modrinth.com/)
     
    [Modrinth](https://modrinth.com/), Simply a great platform for mods/plugins.
 
@@ -34,7 +34,7 @@ I am starting to expand into making websites and working with other libraries li
 
   ### Hangar
 
-  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/Hangar.png" alt="Bloom Logo" height="75">](https://github.com/HangarMC)
+  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/resources/Hangar.png" alt="HangarMC" height="75">](https://github.com/HangarMC)
     
   [HangarMC](https://github.com/HangarMC), A work in progress for Paper Plugins.
 
@@ -42,11 +42,11 @@ I am starting to expand into making websites and working with other libraries li
 
   <td>
 
-  ### Bloom
+  ### Beidou's Hangout
 
-  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/Bloom.png" alt="Bloom Logo" height="75">](https://bloom.host/)
+  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/graphics/discord.png" alt="Beidou's Hangout" height="75">](https://discord.gg/w7yCw4M9za)
     
-  [Bloom](https://bloom.host/), Simply a great hosting company.
+  [Beidou's Hangout](https://discord.gg/w7yCw4M9za), A random discord to talk about almost anything.
 
   </td>
 
