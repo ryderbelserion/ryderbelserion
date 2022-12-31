@@ -7,7 +7,7 @@ I mainly spend my time working with the Minecraft (Java/Kotlin) on development w
 I am starting to expand into making websites and working with other libraries like Discord JDA.
 
 <!-- START Links -->
-[Sponsors]: https://github.com/sponsors/Encode42
+[Sponsors]: https://github.com/sponsors/RyderBelserion
 [Discord]: https://discord.gg/Gsan8cFrDJ
 
 [Sponsors Badge]: https://raw.githubusercontent.com/intergrav/devins-badges/v2/assets/cozy/donate/ghsponsors-singular_vector.svg
