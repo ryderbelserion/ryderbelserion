@@ -57,6 +57,7 @@ I am starting to expand into making websites and working with other libraries li
 ---
 ## I just think the badges are neat.
 [![@ryderbelserion's Holopin board](https://holopin.me/ryderbelserion)](https://holopin.io/@ryderbelserion)
+[![trophy]([https://github-profile-trophy.vercel.app/?username=ryo-ma](https://github-profile-trophy.vercel.app/?username=ryderbelserion&theme=onedark))](https://github.com/ryderbelserion)
 ---
 
 [![Discord Badge]][Discord] [![Sponsors Badge]][Sponsors]
