@@ -44,7 +44,7 @@ I am starting to expand into making websites and working with other libraries li
 
   <td>
 
-  ### Beidou's Hangout
+  ### Beidou's Hangout ( Personal Discord, I just didn't have anywhere else to put this that looked remotely good to me )
 
   [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/graphics/discord.png" alt="Beidou's Hangout" height="75">](https://discord.gg/w7yCw4M9za)
     
@@ -68,4 +68,4 @@ I am starting to expand into making websites and working with other libraries li
   
 ---
 
-[![Discord Badge]][Discord] [![Sponsors Badge]][Sponsors]
+[![Sponsors Badge]][Sponsors]
