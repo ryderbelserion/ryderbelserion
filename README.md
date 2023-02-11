@@ -49,6 +49,7 @@ I am starting to expand into making websites and working with other libraries li
   [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/graphics/discord.png" alt="Beidou's Hangout" height="75">](https://discord.gg/w7yCw4M9za)
     
   [Beidou's Hangout](https://discord.gg/w7yCw4M9za), A random discord to talk about almost anything.
+    <h4>Solely exists to make it even.</h4>
 
   </td>
 
@@ -67,5 +68,3 @@ I am starting to expand into making websites and working with other libraries li
 </div>
   
 ---
-
-[![Sponsors Badge]][Sponsors]
