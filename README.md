@@ -41,16 +41,6 @@ I am starting to expand into making websites and working with other libraries li
    [BuiltByBit](https://builtbybit.com/), The kitchen sink. Tis a little bit of everything.
 
   </td>
-   
-  <td>
-
-  ### Hangar
-
-  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/resources/Hangar.png" alt="HangarMC" height="75">](https://github.com/HangarMC)
-    
-  [HangarMC](https://github.com/HangarMC), A work in progress for Paper Plugins.
-
-  </td>
 
   <td>
 
