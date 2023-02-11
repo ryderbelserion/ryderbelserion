@@ -44,8 +44,8 @@ I am starting to expand into making websites and working with other libraries li
 
   <td>
 
-  ### Beidou's Hangout ( Personal Discord, I just didn't have anywhere else to put this that looked remotely good to me )
-
+  ### Beidou's Hangout
+    
   [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/graphics/discord.png" alt="Beidou's Hangout" height="75">](https://discord.gg/w7yCw4M9za)
     
   [Beidou's Hangout](https://discord.gg/w7yCw4M9za), A random discord to talk about almost anything.
