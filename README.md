@@ -31,6 +31,18 @@ I am starting to expand into making websites and working with other libraries li
   </td>
    
   <td>
+    
+  <td>
+
+  ### BuiltByBit
+    
+  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/bbb.png" alt="BuiltByBit" height="75">](https://builtbybit.com/)
+    
+   [BuiltByBit](https://builtbybit.com/), The kitchen sink. Tis a little bit of everything.
+
+  </td>
+   
+  <td>
 
   ### Hangar
 
