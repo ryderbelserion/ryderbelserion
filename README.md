@@ -29,8 +29,6 @@ I am starting to expand into making websites and working with other libraries li
    [Modrinth](https://modrinth.com/), Simply a great platform for mods/plugins.
 
   </td>
-   
-  <td>
     
   <td>
 
