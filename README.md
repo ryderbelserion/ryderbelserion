@@ -24,7 +24,7 @@ I am starting to expand into making websites and working with other libraries li
 
   ### Modrinth
     
-  [<img src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Favicon/favicon__512x512.png" alt="Modrinth" height="75">](https://modrinth.com/)
+  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/modrinth.webp" alt="Modrinth" height="75">](https://modrinth.com/)
     
    [Modrinth](https://modrinth.com/), Simply a great platform for mods/plugins.
 
@@ -34,7 +34,7 @@ I am starting to expand into making websites and working with other libraries li
 
   ### BuiltByBit
     
-  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/bbb.png" alt="BuiltByBit" height="75">](https://builtbybit.com/)
+  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/builtbybit.webp" alt="BuiltByBit" height="75">](https://builtbybit.com/)
     
    [BuiltByBit](https://builtbybit.com/), The kitchen sink. Tis a little bit of everything.
 
@@ -44,7 +44,7 @@ I am starting to expand into making websites and working with other libraries li
 
   ### Beidou's Hangout
     
-  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/graphics/discord.png" alt="Beidou's Hangout" height="75">](https://discord.gg/w7yCw4M9za)
+  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/discord.webp" alt="Beidou's Hangout" height="75">](https://discord.gg/w7yCw4M9za)
     
   [Beidou's Hangout](https://discord.gg/w7yCw4M9za), A random discord to talk about almost anything.
     
