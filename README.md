@@ -2,9 +2,7 @@
 
 ### Have you ever wanted to be a Seeker of many? Let every worthy sacrifice be carved in ice to endure for all time. The price to pay for eternal youth.
 
-I mainly spend my time working with the Minecraft (Java/Kotlin) on development with [CrazyCrew](https://github.com/Crazy-Crew).
-
-I am starting to expand into making websites and working with other libraries like Discord JDA.
+I mainly spend my time working with Minecraft (Java) on development with [CrazyCrew](https://github.com/Crazy-Crew).
 
 <!-- START Links -->
 [Sponsors]: https://github.com/sponsors/RyderBelserion
