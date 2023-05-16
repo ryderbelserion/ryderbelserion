@@ -42,9 +42,9 @@ I mainly spend my time working with Minecraft (Java) on development with [CrazyC
 
   ### Beidou's Hangout
     
-  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/discord.webp" alt="Beidou's Hangout" height="75">](https://discord.gg/w7yCw4M9za)
+  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/discord.webp" alt="Houseki Fan Club" height="75">](https://discord.gg/w7yCw4M9za)
     
-  [Beidou's Hangout](https://discord.gg/w7yCw4M9za), A random discord to talk about almost anything.
+  [Houseki Fan Club](https://discord.gg/w7yCw4M9za), A random discord to talk about almost anything.
     
   </td>
 
