@@ -42,7 +42,7 @@ I mainly spend my time working with Minecraft (Java) on development with [CrazyC
 
   ### Houseki Fan Club
     
-  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/discord.webp" alt="Houseki Fan Club" height="75">](https://discord.gg/w7yCw4M9za)
+  [<img src="https://cdn.discordapp.com/icons/931330926653358090/3098cbfd8c6287c0ae8a758ce4a93863" alt="Houseki Fan Club" height="75">](https://discord.gg/w7yCw4M9za)
     
   [Houseki Fan Club](https://discord.gg/w7yCw4M9za), A random discord to talk about almost anything.
     
