@@ -40,7 +40,7 @@ I mainly spend my time working with Minecraft (Java) on development with [CrazyC
 
   <td>
 
-  ### Beidou's Hangout
+  ### Houseki Fan Club
     
   [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/discord.webp" alt="Houseki Fan Club" height="75">](https://discord.gg/w7yCw4M9za)
     
