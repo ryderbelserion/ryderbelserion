@@ -1,6 +1,6 @@
 ## Sneaking around are you? You little bugger... ![](https://komarev.com/ghpvc/?username=ryderbelserion&flat-square)
 
-### Have you ever wanted to be a Seeker of many? Let every worthy sacrifice be carved in ice to endure for all time. The price to pay for eternal youth.
+### Have you ever wanted to be a Seeker of many? Let every worthy sacrifice be carved in ice to endure for all time. Such is the price of eternal youth.
 
 I mainly spend my time working with Minecraft (Java) on development with [CrazyCrew](https://github.com/Crazy-Crew).
 
