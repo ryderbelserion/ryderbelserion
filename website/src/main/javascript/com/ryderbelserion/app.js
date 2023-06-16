@@ -1,21 +1,19 @@
-import logo from './core/logo.svg';
+import logo from './img/logo512.webp';
 import './app.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="app">
+      <header className="header">
+        <img src={logo} className="avatar" alt={"logo"}/>
+        <p>Heya, I'm Ryder Belserion</p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="discord-link"
+          href="https://discord.gg/w7yCw4M9za"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Discord
         </a>
       </header>
     </div>
