@@ -32,7 +32,7 @@ I mainly spend my time working with Minecraft (Java) on development with [CrazyC
 
   ### Hangar
     
-  [<img src="https://raw.githubusercontent.com/RyderBelserion/Assets/main/hangar.webp" alt="BuiltByBit" height="75">](https://hangar.papermc.io/)
+  [<img src="https://raw.githubusercontent.com/ryderbelserion/Assets/main/hangar.webp" alt="Hangar" height="75">](https://hangar.papermc.io/)
     
    [Hangar](https://hangar.papermc.io/), A great platform for uploading [paper](https://papermc.io) plugins
 
