@@ -1,0 +1,22 @@
+name: "Feature Request"
+description: "Submit a feature request!"
+title: "[Feature Request]: "
+labels: ["enhancement"]
+
+assignees:
+  - ryderbelserion
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Note: Search to make sure you aren't suggesting a duplicate feature.
+        
+        You can include screen-shots or gif/video examples of what you want to achieve.
+  - type: textarea
+    id: feature
+    attributes:
+      label: Describe the feature
+      description: A clear and concise description of what the feature is.
+    validations:
+      required: true
