@@ -40,11 +40,11 @@ I mainly spend my time working with Minecraft (Java) on development with [CrazyC
 
   <td>
 
-  ### Houseki Fan Club
+  ### Ryder's Tavern
     
-  [<img src="https://cdn.discordapp.com/icons/931330926653358090/cbfd31168fa964a62c2b7ccedd9b27a3" alt="Houseki Fan Club" height="75">](https://discord.gg/w7yCw4M9za)
+  [<img src="https://cdn.discordapp.com/icons/931330926653358090/cbfd31168fa964a62c2b7ccedd9b27a3" alt="Ryder's Tavern" height="75">](https://discord.gg/w7yCw4M9za)
     
-  [Houseki Fan Club](https://discord.gg/w7yCw4M9za), A personal discord server to just chill in.
+  [Ryder's Tavern](https://discord.gg/w7yCw4M9za), A personal discord server to just chill in.
     
   </td>
 
