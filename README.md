@@ -13,7 +13,7 @@ I mainly spend my time working with Minecraft (Java) on development with [CrazyC
 
 <!-- END Links -->
 
-## Neat Platforms:
+## Neat Places:
 <table>
   
  <tr>
