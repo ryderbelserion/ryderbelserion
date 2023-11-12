@@ -42,7 +42,7 @@ I mainly spend my time working with Minecraft (Java) on development with [CrazyC
 
   ### Ryder's Tavern
     
-  [<img src="https://cdn.discordapp.com/icons/931330926653358090/cbfd31168fa964a62c2b7ccedd9b27a3" alt="Ryder's Tavern" height="75">](https://discord.gg/w7yCw4M9za)
+  [<img src="https://cdn.ryderbelserion.com/icon.webp" alt="Ryder's Tavern" height="75">](https://discord.gg/w7yCw4M9za)
     
   [Ryder's Tavern](https://discord.gg/w7yCw4M9za), A personal discord server to just chill in.
     
