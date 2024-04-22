@@ -52,14 +52,5 @@ I mainly spend my time working with Minecraft (Java) on development with [CrazyC
   
 </table>
 
----
-## I just think the badges are neat.
-[![@ryderbelserion's Holopin board](https://holopin.me/ryderbelserion)](https://holopin.io/@ryderbelserion)
-
-<div align="center">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=ryderbelserion&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-  
-</div>
-  
----
+[<img align="left" width="50%" alt="👀" src="github-metrics.svg">](#)
+[<img align="right" width="45%" alt="👀" src="rightside.svg">](#)
