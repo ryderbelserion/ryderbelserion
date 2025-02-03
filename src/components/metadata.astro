@@ -2,8 +2,6 @@
 import { siteConfig } from "@/site.config";
 
 const { title, description } = Astro.props
-
-const url = Astro?.site?.href + 'assets/profile.png'
 ---
 
 <!-- Global Metadata -->
@@ -27,7 +25,7 @@ const url = Astro?.site?.href + 'assets/profile.png'
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:site" content={siteConfig.url} />
-    <meta property="twitter:image" content={url}/>
+    <meta property="twitter:image" content={siteConfig.img}/>
     <meta property="twitter:description" content={description} />
 
     <title>{title}</title>
