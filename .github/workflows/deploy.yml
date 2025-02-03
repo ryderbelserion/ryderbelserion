@@ -21,13 +21,10 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4.0.0
+      - name: Install, build, and upload site output
+        uses: withastro/action@v3.0.2
         with:
-          version: 10
-
-      - name: Install dependencies
-        run: pnpm install
+          node-version: 20
 
   deploy:
     needs: build
@@ -36,6 +33,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
