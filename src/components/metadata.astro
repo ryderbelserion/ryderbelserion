@@ -1,4 +1,6 @@
 ---
+import { siteConfig } from "@/site.config";
+
 const { title, description } = Astro.props
 
 const url = Astro?.site?.href + 'assets/profile.png'
@@ -18,13 +20,13 @@ const url = Astro?.site?.href + 'assets/profile.png'
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
-    <meta property="og:image" content="https://ryderbelserion.com/assets/profile.png" />
+    <meta property="og:image" content={siteConfig.img} />
     <meta property="og:description" content={description} />
 
     <meta property="description" content={description} />
 
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:site" content="https://ryderbelserion.com/" />
+    <meta property="twitter:site" content={siteConfig.url} />
     <meta property="twitter:image" content={url}/>
     <meta property="twitter:description" content={description} />
 
