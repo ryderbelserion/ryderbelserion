@@ -9,15 +9,8 @@
     --font-family-serif: "Montserrat", serif;
 }
 
-html, body {
-    height: 100%;
-
-    margin: 0;
-}
-
 body {
     font-family: var(--font-family-serif);
 
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
