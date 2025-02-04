@@ -1,7 +1,7 @@
 <template>
   <footer>
     <span>
-        A cold beer after a hard day's work... Nothin' like it
+        I trust you
     </span>
   </footer>
 </template>
@@ -12,6 +12,5 @@ footer {
 
   padding: 1em 0.5em;
   text-align: center;
-  width: 100%;
 }
 </style>
