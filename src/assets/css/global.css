@@ -1,22 +1,23 @@
 :root {
-    --dark-theme-main: #273644;
+    --background-body: #273644;
     --dark-theme-secondary: #73a2d3;
 
-    --dark-theme-text: #FFFFFF;
+    --text-main: #FFFFFF;
 
-    --button-color: #ea3a5e;
+    --primary-color: #ea3a5e;
 
-    --font-family-root: 'Montserrat';
+    --font-family-serif: "Montserrat", serif;
 }
 
 html, body {
-    margin: 0;
-    width: 100%;
     height: 100%;
 
-    overflow-x: hidden;
+    margin: 0;
+}
 
-    /*background-color: var(--dark-theme-main);
+body {
+    font-family: var(--font-family-serif);
 
-    font-family: var(--font-family-root), sans-serif;*/
+    display: flex;
+    flex-direction: column;
 }
