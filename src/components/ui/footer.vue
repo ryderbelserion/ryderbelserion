@@ -7,29 +7,20 @@
 </template>
 
 <style scoped>
-@media only screen and (min-width: 100px) {
-  footer {
-    height: 2.5em;
-    width: 35px;
-  }
-
-  img {
-    width: 4em !important;
-  }
-}
-
 footer {
   background-color: var(--secondary-body);
 
-  padding: 1em 0.5em;
-  height: 3.5em;
   text-align: center;
   width: 100%;
+
+  position: relative;
+  margin: auto;
 }
 
 img {
   padding-left: 1.5em;
 
-  width: 7em;
+  width: 6em;
+  height: 6em;
 }
 </style>
