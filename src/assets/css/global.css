@@ -1,16 +1,20 @@
 :root {
-    --background-body: #273644;
-    --dark-theme-secondary: #73a2d3;
+    --background-body: #2a3942;
+
+    --secondary-body: #443977;
+    --hover-color: #ea3a5e;
 
     --text-main: #FFFFFF;
-
-    --primary-color: #ea3a5e;
 
     --font-family-serif: "Montserrat", serif;
 }
 
 body {
+    background-color: var(--background-body);
+
     font-family: var(--font-family-serif);
+
+    color: var(--text-main);
 
     margin: 0;
 }
