@@ -11,8 +11,8 @@ import Character from "@/components/ui/waifus/types/character.vue";
     <Character alt-text="Feixiao, Merlin's Claw of the Xianzhou Yaoqing, and one of the Seven Arbiter-Generals" image-path="feixiao" character-title="Merlin's Claw of the Xianzhou Yaoqing" character-name="Feixiao">
       <img src="@/assets/img/characters/feixiao.webp" alt="Feixiao, Merlin's Claw of the Xianzhou Yaoqing, and one of the Seven Arbiter-Generals">
     </Character>
-    <Character alt-text="Feixiao, Emanator of IX the Nihility" image-path="acheron" character-title="Emanator of IX the Nihility" character-name="Acheron">
-      <img src="@/assets/img/characters/acheron.webp" alt="Feixiao, Emanator of IX the Nihility">
+    <Character alt-text="Acheron, Emanator of IX the Nihility" image-path="acheron" character-title="Emanator of IX the Nihility" character-name="Acheron">
+      <img src="@/assets/img/characters/acheron.webp" alt="Acheron, Emanator of IX the Nihility">
     </Character>
   </Wrapper>
 </template>
