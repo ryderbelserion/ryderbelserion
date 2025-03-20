@@ -13,8 +13,7 @@ footer {
   text-align: center;
   width: 100%;
 
-  position: relative;
-  margin: auto;
+  margin-top: auto;
 }
 
 img {

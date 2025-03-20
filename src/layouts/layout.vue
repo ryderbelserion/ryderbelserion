@@ -31,17 +31,26 @@ useSeoMeta({
 </script>
 
 <template>
-  <Header></Header>
+  <div class="flex-wrapper">
+    <Header></Header>
 
-  <div class="outer-container">
-    <slot></slot>
+    <div class="outer-container">
+      <slot></slot>
+    </div>
+
+    <Footer/>
   </div>
-
-  <Footer/>
 </template>
 
 <style scoped>
   .outer-container {
     height: 54em;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
   }
 </style>
