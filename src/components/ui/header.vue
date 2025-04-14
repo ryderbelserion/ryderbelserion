@@ -12,25 +12,31 @@
 
 <style scoped>
 header {
+  width: 75%;
   height: 2.1em;
-}
 
-.buttons {
-  align-content: center;
-}
-
-.button {
-  text-decoration: none;
-  padding: 10px 5px;
-  text-align: center;
+  margin: 0 auto;
 
   user-select: none;
-
-  color: inherit;
 }
 
 h1 {
   text-align: center;
   font-size: 0.8em;
+}
+
+img {
+  padding: 10px;
+}
+
+.button {
+  padding: 10px 5px;
+  text-align: center;
+
+  color: inherit;
+
+  text-decoration: none;
+
+  line-height: 16px;
 }
 </style>
