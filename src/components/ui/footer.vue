@@ -1,8 +1,8 @@
 <template>
   <footer>
-    <img src="@/assets/img/characters/chibi/acheron.webp" alt="a chibi version of the Galaxy Ranger Acheron">
-    <img src="@/assets/img/characters/chibi/beidou.webp" alt="a chibi version of Captain Beidou">
-    <img src="@/assets/img/characters/chibi/feixiao.webp" alt="a chibi version of General Feixiao">
+    <img src="@/public/assets/img/characters/chibi/acheron.webp" alt="a chibi version of the Galaxy Ranger Acheron"/>
+    <img src="@/public/assets/img/characters/chibi/beidou.webp" alt="a chibi version of Captain Beidou"/>
+    <img src="@/public/assets/img/characters/chibi/feixiao.webp" alt="a chibi version of General Feixiao"/>
   </footer>
 </template>
 
