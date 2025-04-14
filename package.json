@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "@iconify-json/ic": "^1.2.2",
-    "@nuxt/icon": "^1.10.3"
+    "@nuxt/icon": "^1.12.0"
   }
 }
