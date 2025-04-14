@@ -20,12 +20,26 @@ useSeoMeta({
 
   ogTitle: props.pageTitle,
   ogSiteName: "Ryder's Tavern",
+  ogImage: "https://ryderbelserion.com/assets/img/characters/beidou.webp",
+  ogUrl: "https://ryderbelserion.com",
   ogDescription: props.pageDescription,
 
   twitterDescription: props.pageDescription,
   twitterSite: "https://ryderbelserion.com",
-  twitterImage: "https://ryderbelserion.com/assets/profile.png",
+  twitterTitle: props.pageTitle,
+  twitterImage: "https://ryderbelserion.com/assets/img/characters/beidou.webp",
   twitterCard: "summary_large_image",
+})
+
+useHead({
+  charset: 'utf-8',
+  viewport: 'width=device-width, initial-scale=1',
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+  ]
 })
 
 </script>
