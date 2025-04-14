@@ -26,15 +26,25 @@ const props = defineProps({
   <div class="character-profile">
     <slot></slot>
 
-    <div class="character-description">
-      <h1 class="character-name">{{ props.characterName}} </h1>
+    <img :src="`/assets/img/characters/` + imagePath" :alt="altText"/>
 
-      <span class="character-title">{{ props.characterTitle}} </span>
+    <div class="character-description">
+      <h1 class="character-name">{{ props.characterName }} </h1>
+
+      <span class="character-title">{{ props.characterTitle }} </span>
     </div>
   </div>
 </template>
 
 <style scoped>
+  img {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+
+    padding-top: 7px;
+  }
+
   .character-profile {
     background-color: var(--secondary-body);
 
