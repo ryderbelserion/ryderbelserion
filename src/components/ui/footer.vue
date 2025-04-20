@@ -19,7 +19,7 @@ footer {
 img {
   padding-left: 1.5em;
 
-  width: 6em;
-  height: 6em;
+  width: 4em;
+  height: 4em;
 }
 </style>
