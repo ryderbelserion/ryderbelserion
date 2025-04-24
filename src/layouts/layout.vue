@@ -2,6 +2,8 @@
 import Header from "@/components/ui/header.vue";
 import Footer from "@/components/ui/footer.vue";
 
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
+
 const props = defineProps({
   pageTitle: {
     type: String,
@@ -58,6 +60,8 @@ useHead({
       </div>
     </body>
   </html>
+
+  <SpeedInsights/>
 </template>
 
 <style scoped>
