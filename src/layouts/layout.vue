@@ -45,26 +45,36 @@ useHead({
 </script>
 
 <template>
-  <div class="flex-wrapper">
-    <Header></Header>
+  <html>
+    <body>
+      <div class="layout">
+        <Header></Header>
 
-    <div class="outer-container">
-      <slot></slot>
-    </div>
+        <main>
+          <slot></slot>
+        </main>
 
-    <Footer/>
-  </div>
+        <Footer/>
+      </div>
+    </body>
+  </html>
 </template>
 
 <style scoped>
-  .outer-container {
-    height: 54em;
+  main {
+    width: 100%;
   }
 
-  .flex-wrapper {
-    display: flex;
+  .layout {
+    display: inherit;
+    flex-direction: inherit;
+
+    align-self: center;
+
+    height: 100%;
     min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
+
+    max-width: var(--wrap);
   }
 </style>
