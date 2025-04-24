@@ -6,16 +6,6 @@ export default defineNuxtConfig({
 
   srcDir: 'src',
 
-  nitro: {
-    compressPublicAssets: true,
-
-    prerender: {
-      crawlLinks: true
-    },
-
-    static: true
-  },
-
   ssr: true,
 
   css: ['~/assets/css/global.css']
