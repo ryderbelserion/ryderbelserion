@@ -19,7 +19,7 @@ useSeoMeta({
   description: props.pageDescription,
 
   ogTitle: props.pageTitle,
-  ogSiteName: "Ryder's Tavern",
+  ogSiteName: "Ryder Belserion's Tavern",
   ogImage: "https://ryderbelserion.com/assets/img/characters/beidou.webp",
   ogUrl: "https://ryderbelserion.com",
   ogDescription: props.pageDescription,
