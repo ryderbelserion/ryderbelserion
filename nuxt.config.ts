@@ -6,7 +6,5 @@ export default defineNuxtConfig({
 
   srcDir: 'src',
 
-  css: ['~/assets/css/global.css'],
-
-  modules: ['@nuxt/icon']
+  css: ['~/assets/css/global.css']
 })
