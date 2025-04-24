@@ -13,9 +13,5 @@
     "nuxt": "^3.16.2",
     "vue": "latest",
     "vue-router": "latest"
-  },
-  "devDependencies": {
-    "@iconify-json/ic": "^1.2.2",
-    "@nuxt/icon": "^1.12.0"
   }
 }

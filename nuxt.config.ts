@@ -2,11 +2,21 @@
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   srcDir: 'src',
 
-  css: ['~/assets/css/global.css'],
+  nitro: {
+    compressPublicAssets: true,
 
-  modules: ['@nuxt/icon']
+    prerender: {
+      crawlLinks: true
+    },
+
+    static: true
+  },
+
+  ssr: true,
+
+  css: ['~/assets/css/global.css']
 })

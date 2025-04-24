@@ -17,11 +17,6 @@ html, body {
     height: 100%;
 }
 
-html {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: var(--background-body);
 
@@ -31,7 +26,6 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 p {
