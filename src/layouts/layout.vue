@@ -66,8 +66,8 @@ useHead({
   }
 
   .layout {
-    display: inherit;
-    flex-direction: inherit;
+    display: flex;
+    flex-direction: column;
 
     align-self: center;
 
