@@ -1,17 +1,16 @@
 {
-  "name": "the_tavern",
-  "private": true,
+  "name": "website",
   "type": "module",
+  "version": "0.4.0",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "nuxt": "^3.16.2",
-    "vue": "latest",
-    "vue-router": "latest"
+    "@astrojs/vue": "^5.0.13",
+    "astro": "^5.7.12",
+    "vue": "^3.5.13"
   }
 }

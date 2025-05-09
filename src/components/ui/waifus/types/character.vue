@@ -26,7 +26,7 @@ const props = defineProps({
   <div class="character-profile">
     <slot></slot>
 
-    <img :src="`/assets/img/characters/` + imagePath" :alt="altText"/>
+    <img :src="`../assets/img/characters/` + imagePath" :alt="altText"/>
 
     <div class="character-description">
       <h1 class="character-name">{{ props.characterName }} </h1>

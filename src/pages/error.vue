@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Layout from "@/layouts/layout.vue";
 
-const handleError = () => clearError({ redirect: '/' })
 </script>
 
 <template>
@@ -9,8 +8,6 @@ const handleError = () => clearError({ redirect: '/' })
     <div class="wrapper">
       <img src="/assets/img/beidou_transparent.png" alt="Captain Beidou">
       <p>You sure you know where you are going? Do you need a map?</p>
-
-      <button @click="handleError">Go Back</button>
     </div>
   </Layout>
 </template>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Wrapper from "@/components/ui/waifus/wrapper.vue";
-import Character from "@/components/ui/waifus/types/character.vue";
+import Wrapper from "../waifus/wrapper.vue";
+import Character from "../waifus/types/character.vue";
 </script>
 
 <template>
