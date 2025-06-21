@@ -1,26 +1,51 @@
 <script setup lang="ts">
-import Layout from "@/layouts/layout.vue";
+import Header from "@/components/ui/header.vue";
+import Footer from "@/components/ui/footer.vue";
 
 const handleError = () => clearError({ redirect: '/' })
 </script>
 
 <template>
-  <Layout page-description="My cozy little tavern in the far corner of the internet." page-title="Ryder Belserion's Tavern">
-    <div class="wrapper">
-      <img src="/assets/img/beidou_transparent.png" alt="Captain Beidou">
-      <p>You sure you know where you are going? Do you need a map?</p>
+  <div class="layout">
+    <Header></Header>
 
-      <button @click="handleError">Go Back</button>
-    </div>
-  </Layout>
+    <main>
+      <div class="wrapper">
+        <img src="/assets/img/beidou_transparent.png" alt="Captain Beidou">
+        <p>You sure you know where you are going? Do you need a map?</p>
+
+        <button @click="handleError">Go Back</button>
+      </div>
+    </main>
+
+    <Footer/>
+  </div>
 </template>
 
 <style scoped>
+main {
+  min-width: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+
+  align-self: center;
+
+  min-height: 100vh;
+  min-width: 100vw; /* maybe you want this to be var(--wrap) instead? your choice */
+
+  max-width: var(--wrap);
+}
+
 .wrapper {
   flex-direction: column;
   display: flex;
 
   align-items: center;
+  /* to make sure it stays in the middle? unless you want it to be full-width, in that case modify the `width` property down below to 100% */
+  justify-self: center;
 
   background-color: blue;
 

@@ -1,10 +1,11 @@
 <template>
   <header>
     <div class="buttons">
-      <a href="/" class="button">Home</a>
-      <a href="/waifus" class="button">Waifus</a>
-      <a href="/projects" class="button">Projects</a>
-      <a href="https://discord.gg/w7yCw4M9za" class="button">Discord</a>
+      <!-- use nuxt-link to avoid re-fetching the page -->
+      <NuxtLink to="/" class="button">Home</NuxtLink>
+      <NuxtLink to="/waifus" class="button">Waifus</NuxtLink>
+      <NuxtLink to="/projects" class="button">Projects</NuxtLink>
+      <NuxtLink to="https://discord.gg/w7yCw4M9za" class="button">Discord</NuxtLink>
     </div>
   </header>
 
