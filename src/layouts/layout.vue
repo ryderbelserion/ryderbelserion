@@ -31,7 +31,8 @@ useSeoMeta({
   twitterCard: "summary_large_image",
 })
 
-useHead({
+/* unless you need to replace these on each page, you can make them default in nuxt.config.ts */
+/*useHead({
   charset: 'utf-8',
   viewport: 'width=device-width, initial-scale=1',
   htmlAttrs: {
@@ -40,29 +41,25 @@ useHead({
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
   ]
-})
+})*/
 
 </script>
 
 <template>
-  <html>
-    <body>
-      <div class="layout">
-        <Header></Header>
+  <div class="layout">
+    <Header/>
 
-        <main>
-          <slot></slot>
-        </main>
+    <main>
+      <slot></slot>
+    </main>
 
-        <Footer/>
-      </div>
-    </body>
-  </html>
+    <Footer/>
+  </div>
 </template>
 
 <style scoped>
   main {
-    width: 100%;
+    min-width: 100%;
   }
 
   .layout {
@@ -71,9 +68,8 @@ useHead({
 
     align-self: center;
 
-    height: 100%;
     min-height: 100vh;
-    width: 100%;
+    min-width: 100vw; /* maybe you want this to be var(--wrap) instead? your choice */
 
     max-width: var(--wrap);
   }
