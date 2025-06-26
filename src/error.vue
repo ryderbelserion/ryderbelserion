@@ -44,34 +44,42 @@ main {
   display: flex;
 
   align-items: center;
-  /* to make sure it stays in the middle? unless you want it to be full-width, in that case modify the `width` property down below to 100% */
+  /* to make sure it stays in the middle? unless you want it to be full-width,
+  in that case modify the `width` property down below to 100% */
   justify-self: center;
 
-  background-color: blue;
-
+  padding: 13em;
   width: 65%;
 }
 
 img {
-  height: auto;
   max-width: 100%;
+  height: auto;
 }
 
 button {
-  border-color: red;
-  border-style: dashed;
+  background-color: var(--button-color);
+  border-style: solid;
   border-width: 1px;
-  border-radius: 15px;
+  border-radius: 25px;
 
-  max-width: 10%;
+  height: 2.6em;
+  width: 7em;
 
-  background-color: transparent;
-
-  color: inherit;
+  color: var(--text-main);
 }
 
 button:hover {
-  color: blue;
+  border-color: var(--button-color);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+
+  background-color: transparent;
+
+  color: var(--text-main);
+
+  cursor: pointer;
 }
 
 p {
