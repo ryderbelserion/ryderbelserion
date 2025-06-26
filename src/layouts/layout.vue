@@ -25,7 +25,7 @@ useSeoMeta({
   ogDescription: props.pageDescription,
 
   twitterDescription: props.pageDescription,
-  twitterSite: "https://ryderbelserion.com",
+  twitterSite: "@ryderbelserion",
   twitterTitle: props.pageTitle,
   twitterImage: "https://ryderbelserion.com/assets/img/characters/beidou.webp",
   twitterCard: "summary_large_image",
