@@ -1,17 +1,4 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json",
-  "compilerOptions": {
-    "jsx": "preserve",
-
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "src/*"
-      ],
-      "images": [
-        "../assets/images"
-      ]
-    }
-  }
+  "extends": "./.nuxt/tsconfig.json"
 }
