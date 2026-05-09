@@ -1,0 +1,59 @@
+name: Update Gradle
+
+on:
+  workflow_call:
+
+jobs:
+  gradle:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/create-github-app-token@v3
+        id: generate-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_SECRET_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: "CrazyEnchantments,CrazyCrates,CrazyEnvoys,CrazyVouchers,CrazyAuctions,ChatManager,BlockParticles"
+
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+
+      - uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 25
+
+      #- name: Make gradlew executable
+      #  run: chmod +x ./gradlew
+
+      - name: Update Gradle Wrapper
+        run: gradle wrapper --gradle-version latest
+
+      - name: Verify Gradle Wrapper
+        run: gradle --help
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+          committer: Ryder Belserion <no-reply@ryderbelserion.com>
+          sign-commits: true
+          commit-message: 'chore: Update Gradle'
+          title: 'chore: Update Gradle'
+          body: |
+            Successfully updated gradle to the newest version!
+             - https://docs.gradle.org/current/release-notes.html
+          labels: |
+            dependencies
+          branch: gradle-wrapper-update
+          #delete-branch: true
+          base: main
