@@ -6,6 +6,10 @@ on:
       branch:
         required: true
         type: string
+      publish:
+        required: false
+        type: string
+        default: "modrinth,hangar"
 
     secrets:
       webhook:
@@ -19,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    if: "!contains(github.event.commits[0].message, '[ci-skip]') || !contains(github.event.commits[0].message, 'chore:')"
+    if: "!contains(github.event.head_commit.message, '[ci-skip]') || !contains(github.event.head_commit.message, 'chore:')"
 
     steps:
       - uses: actions/checkout@v6
@@ -41,12 +45,14 @@ jobs:
         run: gradle build --stacktrace
 
       - name: Publish to Modrinth
+        if: contains(inputs.publish, 'modrinth')
         run: gradle modrinth --stacktrace
         env:
           COMMIT_MESSAGE: ${{ join(github.event.commits.*.message, '<br>') }}
           MODRINTH_TOKEN: ${{ secrets.modrinth_token }}
 
       - name: Publish to Hangar
+        if: contains(inputs.publish, 'hangar')
         run: gradle publishAllPublicationsToHangar --stacktrace
         env:
           COMMIT_MESSAGE: ${{ join(github.event.commits.*.message, '<br>') }}
