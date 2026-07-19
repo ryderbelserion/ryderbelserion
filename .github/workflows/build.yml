@@ -3,10 +3,14 @@ name: Shared Build
 on:
   workflow_call:
     inputs:
+      status:
+        required: false
+        type: string
+        default: "release"
       branch:
         required: true
         type: string
-      publish:
+      platforms:
         required: false
         type: string
         default: "modrinth,hangar"
@@ -26,7 +30,7 @@ jobs:
     if: "!contains(github.event.head_commit.message, '[ci-skip]') || !contains(github.event.head_commit.message, 'chore:')"
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           ref: ${{ inputs.branch }}
 
@@ -38,34 +42,35 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v6
 
-      #- name: Make gradlew executable
-      #  run: chmod +x ./gradlew
-
       - name: Build
         run: gradle build --stacktrace
 
       - name: Publish to Modrinth
-        if: contains(inputs.publish, 'modrinth')
+        if: contains(inputs.platforms, 'modrinth')
         run: gradle modrinth --stacktrace
         env:
           COMMIT_MESSAGE: ${{ join(github.event.commits.*.message, '<br>') }}
           MODRINTH_TOKEN: ${{ secrets.modrinth_token }}
+          version_status: ${{ inputs.status }}
 
       - name: Publish to Hangar
-        if: contains(inputs.publish, 'hangar')
+        if: contains(inputs.platforms, 'hangar')
         run: gradle publishAllPublicationsToHangar --stacktrace
         env:
           COMMIT_MESSAGE: ${{ join(github.event.commits.*.message, '<br>') }}
           HANGAR_KEY: ${{ secrets.hangar_token }}
+          version_status: ${{ inputs.status }}
 
       - name: Notify Discord
         if: success()
         run: gradle release-build --stacktrace
         env:
           BUILD_WEBHOOK: ${{ secrets.webhook }}
+          version_status: ${{ inputs.status }}
 
       - name: Build Failure
         if: failure()
         run: gradle failed-build --stacktrace
         env:
           BUILD_WEBHOOK: ${{ secrets.webhook }}
+          version_status: ${{ inputs.status }}
