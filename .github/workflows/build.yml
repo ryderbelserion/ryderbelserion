@@ -25,7 +25,6 @@ on:
         
 env:
   GIT_PREVIOUS_SUCCESSFUL_COMMIT: ${{ github.event.before }}
-  COMMIT_MESSAGE: ${{ join(github.event.commits.*.message, '<br>') }}
   version_status: ${{ inputs.status }}
 
 jobs:
