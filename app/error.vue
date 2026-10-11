@@ -3,20 +3,25 @@ import Header from "@/components/ui/header.vue";
 import Footer from "@/components/ui/footer.vue";
 
 const handleError = () => clearError({ redirect: '/' })
+
+useHead({
+  title: "Ryder's Tavern | Error"
+})
 </script>
 
 <template>
   <div class="layout">
-    <Header></Header>
+    <Header/>
 
-    <main>
-      <div class="wrapper">
-        <img src="/assets/img/beidou_transparent.png" alt="Captain Beidou">
-        <p>You sure you know where you are going? Do you need a map?</p>
+    <div class="main">
+      <div class="container">
+        <NuxtImg class="avatar" src="/img/beidou_transparent.png" alt="Error" width="256" height="256"/>
+
+        <span>You sure you know where you are going? Do you need a map?</span>
 
         <button @click="handleError">Go Back</button>
       </div>
-    </main>
+    </div>
 
     <Footer/>
   </div>
@@ -39,7 +44,7 @@ main {
   max-width: var(--wrap);
 }
 
-.wrapper {
+.container {
   flex-direction: column;
   display: flex;
 

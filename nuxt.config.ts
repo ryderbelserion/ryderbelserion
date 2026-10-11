@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
+    routeRules: {
+        '/discord': { redirect: 'https://discord.gg/ktxCyUd7Ny' },
+        '/kofi': { redirect: 'https://kofi.com/ryderbelserion' }
+    },
+
     app: {
         head: {
             charset: 'utf-8',
@@ -44,16 +49,34 @@ export default defineNuxtConfig({
         blockNonSeoBots: true
     },
 
-    /* makes working with scss more optimized */
-    vite: {
-        css: {
-            preprocessorOptions: {
-                scss: {
-                    api: "modern"
-                },
-            },
+    viewport: {
+        breakpoints: {
+            desktop: 1024,
+
+            mobile: 425,
+
+            tablet: 768
         },
+
+        defaultBreakpoints: {
+            desktop: 'desktop',
+            mobile: 'mobile',
+            tablet: 'tablet',
+        },
+
+        fallbackBreakpoint: 'desktop'
     },
 
-    modules: ['@nuxt/image', '@nuxtjs/sitemap', '@nuxtjs/robots', '@nuxt/icon']
+    modules: [
+        '@nuxtjs/sitemap',
+        '@nuxtjs/robots',
+
+        '@nuxt/content',
+        '@nuxt/image',
+        '@nuxt/icon',
+
+        '@vueuse/nuxt',
+
+        'nuxt-viewport'
+    ]
 })

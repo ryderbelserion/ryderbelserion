@@ -5,7 +5,7 @@
       <NuxtLink to="/" class="button">Home</NuxtLink>
       <NuxtLink to="/waifus" class="button">Waifus</NuxtLink>
       <NuxtLink to="/projects" class="button">Projects</NuxtLink>
-      <NuxtLink to="https://discord.gg/w7yCw4M9za" class="button">Discord</NuxtLink>
+      <NuxtLink to="/discord" class="button">Discord</NuxtLink>
     </div>
   </header>
 
